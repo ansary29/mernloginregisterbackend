@@ -20,7 +20,7 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`)
 })
 
-mongoose.connect("mongo uri").then(()=>{
+mongoose.connect("mongodb+srv://ansary29:moham29@myproject.12hak.mongodb.net/").then(()=>{
     console.log("Database connected successfully")
 }).catch((err)=>{
     console.log("Database connection failed") 
